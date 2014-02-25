@@ -18,7 +18,10 @@ var exec = function (cmd) {
   };
 };
 
-var andThen = function (fn, after) {
+
+
+
+var andaThen = function (fn, after) {
   return function () {
     return fn.apply(this, arguments).then(after);
   };
