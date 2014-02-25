@@ -23,7 +23,7 @@ var warn = function() {
 };
 
 
-var parseRawCommit = function(raw) {
+var parsesRawCommit = function(raw) {
   if (!raw) return null;
 
   var lines = raw.split('\n');
